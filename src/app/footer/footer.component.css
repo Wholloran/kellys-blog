@@ -1,0 +1,13 @@
+.footer{
+    position: fixed;
+    bottom: 0;
+    Left: 0;
+    margin-left: calc(50% - 50vw);
+    width: 100vw;
+    height: 25px;
+    background-color: black;
+}
+.stamp{
+    color: #FFFFFF;
+    text-decoration-color: #FFFFFF;
+}
