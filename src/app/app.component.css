@@ -1,6 +1,8 @@
 .main{
     text-align: center;
+    overflow: hidden;
     width: 100%;
+    background-size: cover;
 }
 .background-image{
     position: absolute;
@@ -8,21 +10,22 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    overflow-x: hidden;
-    overflow-y: hidden;
+    overflow: hidden;
 }
 
 .white-background{
-    padding-top: 100px;
+    
     position: relative;
     left: 50;
-    width: 50%;
+    width: 75%;
     height: 100%;
-    
     background-color: white;
     top: 0;
     display: inline-block;
 }
 .blog-div{
-    padding-bottom: 50px;
+    display: inline-block;
+   
+    border: 5px;
+    border-color: black;
 }
